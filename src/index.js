@@ -9,7 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import App from "./App";
 import { searchRobots, requestRobots } from "./reducers";
-import registerServiceWorker from './registerServiceWorker';
+import * as registerServiceWorker from './registerServiceWorker';
 
 const logger = createLogger();
 const rootReducer = combineReducers({searchRobots, requestRobots})
